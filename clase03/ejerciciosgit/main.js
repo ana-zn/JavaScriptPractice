@@ -1,10 +1,7 @@
 /*
 
-
-
-Pide al usuario que ingrese su nombre utilizando prompt, luego verifica si comienza con la letra "A" o "a" e imprime un mensaje correspondiente.
 Declara una variable llamada temperatura y asígnale un valor numérico que represente la temperatura actual. Luego, utilizando un if, imprime un mensaje que indique si hace frío, templado o caliente.
-Pide al usuario que ingrese tres números utilizando prompt, luego verifica si la suma de los dos primeros números es igual al tercer número e imprime un mensaje correspondiente.
+
 
 */
 
@@ -173,18 +170,32 @@ Pide al usuario que ingrese tres números utilizando prompt, luego verifica si l
 //----------------------------------------------------------------------------------------------------- (CORRECTO)
 // Utilizando un if else, verifica si un año ingresado por el usuario es bisiesto o no, e imprime un mensaje correspondiente.
 
-let anios = parseInt(prompt("Ingrese un año para determinar si es bisiesto: "))
-if ((anios%4===0 && anios % 100 !==0) || (anios % 400 === 0)){
-    alert(`El año ingresado ${anios} es Bisiesto`)
-} else{
-    alert(`El año ingresado ${anios} NO es Bisiesto`)
-}
+// let anios = parseInt(prompt("Ingrese un año para determinar si es bisiesto: "))
+// if ((anios%4===0 && anios % 100 !==0) || (anios % 400 === 0)){
+//     alert(`El año ingresado ${anios} es Bisiesto`)
+// } else{
+//     alert(`El año ingresado ${anios} NO es Bisiesto`)
+// }
 
+//----------------------------------------------------------------------------------------------------- (CORRECTO)
 //Pide al usuario que ingrese su nombre utilizando prompt, luego verifica si comienza con la letra "A" o "a" e imprime un mensaje correspondiente.
 
 let nombre = prompt("Ingrese un nombre: "); 
-if (nombre.length(1) === "A"){
-    alert(`La primer letra del nombre ${nombre} es mayuscula`)
+if (nombre[0] === "A"){
+    alert(`La primer letra del nombre ${nombre} es A`)
 } else {
-    alert(`La primer letra del nombre ${nombre} es minuscula`)
+    alert(`La primer letra del nombre ${nombre} es a`)
+}
+
+//----------------------------------------------------------------------------------------------------- ()
+//Pide al usuario que ingrese tres números utilizando prompt, luego verifica si la suma de los dos primeros números es igual al tercer número e imprime un mensaje correspondiente.
+let numA = parseInt(prompt("Ingrese un primer numero: ")); 
+let numB = parseInt(prompt("Ingrese un segundo numero: ")); 
+let numC = parseInt(prompt("Ingrese un tercer numero: "))
+
+suma = numA + numB; 
+if (suma === numC){
+    alert(`La suma del ${numA} y ${numB} es igual al tercer numero ingresado ${numC}`)
+} else{
+    alert(`La suma del ${numA} y ${numC} NO es igual al tercer numero ingresado ${numC}`)
 }

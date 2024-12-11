@@ -70,3 +70,5 @@ console.log(resultado);  // "Rojo,Verde,Azul"
 let nombres = ['Ana', 'Juan', 'Carlos'];
 let listaNombres = nombres.join(' ');
 console.log(listaNombres);  // "Ana Juan Carlos"
+
+miarrayNumeros.join();

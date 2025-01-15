@@ -1,73 +1,4 @@
-// Ejercicios de Bucles en JavaScript
-// For Loop
-//1. Imprimir los números del 1 al 10 usando un bucle for. 
-
-for (let i=0; i<100; i++){
-    console.log(i); 
-}
-
-//2. Sumar los números del 1 al 100 y mostrar el resultado usando un bucle for.
-
-// let suma=0; 
-
-// for (let i=1; i<=100; i++){
-//     suma+=i; 
-//     console.log("La suma de los numeros del 1 a 100 es:", suma); 
-// }
-
-
-//3. Imprimir los números pares del 1 al 20 usando un bucle for.
-
-
-// for (let i = 1 ; i<=20; i++){
-//     console.log(i);
-    
-// }
-
-//4. Crear un bucle for que pida al usuario 5 números y calcule su suma.
-// let suma=0; 
-// for (let i= 0; i<5; i++){
-//     let num = parseInt(prompt("Puedes ingresar el numero "));
-//     suma+=num; 
-// }
-// console.log("La suma de los numeros es " + suma); 
-
-//5. Imprimir los elementos de un array usando un bucle for.
-
-let frutas = [
-    "manzana", 
-    "banana", 
-    "frutilla", 
-    "pera"
-]
-console.log(frutas); 
-
-console.log(frutas[2]); 
-
 /*
-Ejercicios de Bucles en JavaScript
-For Loop
-Imprimir los números del 1 al 10 usando un bucle for.
-Sumar los números del 1 al 100 y mostrar el resultado usando un bucle for.
-Imprimir los números pares del 1 al 20 usando un bucle for.
-Crear un bucle for que pida al usuario 5 números y calcule su suma.
-Imprimir los elementos de un array usando un bucle for.
-While Loop
-Imprimir los números del 1 al 10 usando un bucle while.
-Sumar los números del 1 al 50 y mostrar el resultado usando un bucle while.
-Imprimir los números impares del 1 al 20 usando un bucle while.
-Crear un bucle while que pida al usuario números hasta que introduzca un número negativo.
-Contar el número de veces que el usuario introduce "hola" usando un bucle while.
-Do...While Loop
-Imprimir los números del 1 al 10 usando un bucle do...while.
-Sumar los números del 1 al 30 y mostrar el resultado usando un bucle do...while.
-Imprimir los múltiplos de 3 del 1 al 30 usando un bucle do...while.
-Crear un bucle do...while que pida al usuario números hasta que introduzca el número 0.
-Contar el número de intentos hasta que el usuario adivine un número secreto usando un bucle do...while.
- */
-
-/*
-Ejercicios Básicos de JavaScript con Funciones
 Variables Locales y Globales
 Declara una variable global llamada mensaje y asígnale un mensaje.
 Crea una función llamada saludar que imprima en la consola el valor de la variable mensaje.
@@ -115,4 +46,5 @@ Llama a la función perimetroRectangulo con valores de longitud y anchura propor
 Cálculo del Área de un Trapecio
 Crea una función llamada areaTrapecio que tome las bases y la altura de un trapecio como parámetros y devuelva el área del trapecio.
 Llama a la función areaTrapecio con valores de las bases y la altura proporcionados por el usuario e imprime el resultado en la consola.
+
  */

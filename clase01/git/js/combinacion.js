@@ -20,7 +20,7 @@ Solicita al usuario que ingrese su número de la suerte y muestra un mensaje de 
 Pide al usuario que ingrese su día de la semana favorito y muestra un mensaje en la consola con ese día.
 Solicita al usuario que ingrese su estación del año favorita y muestra un mensaje de alerta con esa estación.
  */
-
+//--------------------COMPLETADO-------------------------
 //1.Pide al usuario que ingrese su nombre y su edad utilizando un prompt.
 //Pide al usuario que ingrese su nombre utilizando prompt y luego muestra un mensaje en la consola que diga "Hola, [nombre]".
 // let name = prompt("Ingresa tu nombre"); 
@@ -97,4 +97,6 @@ if(d === 1){
 else{
     alert ("Numero ingresado INCORRECTO: "); 
 }
+
+
 //18.Solicita al usuario que ingrese su estación del año favorita y muestra un mensaje de alerta con esa estación.

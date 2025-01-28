@@ -1,8 +1,6 @@
 /*
 
-Funciones Anónimas
-Crea una función anónima que tome dos números como parámetros y devuelva el mayor de los dos.
-Utiliza la función anónima creada para determinar el número más grande de dos números ingresados por el usuario e imprime el resultado en la consola.
+
 Funciones Flecha
 Declara una variable llamada doble y asígnale una función flecha que tome un número como parámetro y devuelva el doble de ese número.
 Llama a la función flecha almacenada en la variable doble para calcular el doble de un número e imprime el resultado en la consola.
@@ -137,8 +135,25 @@ console.log(calcularAreaRectangulo(5,10))
 
 // Llama a la función calcularAreaRectangulo con valores de base y altura proporcionados por el usuario e imprime el resultado en la consola.
 //-------------------------------------------COMPLETADO
-let base1 = parseInt(prompt("Ingrese la base de su rectangulo: "))
+// let base1 = parseInt(prompt("Ingrese la base de su rectangulo: "))
 
-let altura1 = parseInt(prompt("Ingrese la base de su rectangulo: "))
+// let altura1 = parseInt(prompt("Ingrese la base de su rectangulo: "))
 
-console.log(calcularAreaRectangulo(base1, altura1)); 
+// console.log(calcularAreaRectangulo(base1, altura1)); 
+
+// Funciones Anónimas
+// Crea una función anónima que tome dos números como parámetros y devuelva el mayor de los dos.
+//-------------------------------------------COMPLETADO
+const mayornum = function (num1, num2){
+    return num1 > num2 ? num1 : num2; 
+}
+
+console.log(mayornum(10, 5)); 
+console.log(mayornum(14,56)); 
+
+// Utiliza la función anónima creada para determinar el número más grande de dos números ingresados por el usuario e imprime el resultado en la consola.
+//-------------------------------------------COMPLETADO
+let numa = parseInt(prompt("Ingrese un primer numero: "))
+let numb = parseInt(prompt("Ingrese un segundo numero: "))
+
+console.log(mayornum(numa, numb))
